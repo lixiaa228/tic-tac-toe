@@ -1,4 +1,6 @@
 import { Player } from './components/Player.tsx';
+import GameBoard from './components/GameBoard'
+
 
 function App() {
     return (
@@ -10,7 +12,7 @@ function App() {
                     <Player initialName="player2" symbol="O"/>
 
                 </ol>
-                GAME BOARD
+                <GameBoard />
             </div>
 
             LOG
